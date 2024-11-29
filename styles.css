@@ -1,0 +1,62 @@
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: blue;
+    color: var(--color-white);
+}
+
+main {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    color: var(--color-black);
+    width: 40vw;
+    height: fit-content;
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    border: 0;
+    border-bottom: solid 2px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4px;
+    width: 100px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-black);
+}
+
+input,
+button {
+    height: 30px;
+}
